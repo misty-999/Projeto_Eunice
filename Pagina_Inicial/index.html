@@ -1,13 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documenot</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EUNICE Activities Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="java.js" defer></script>
 </head>
-<h1 style="text-align: center;">Projeto Eunice</h1>
-
 <body>
-    
+  <header class="header">
+    <div class="container header-content">
+      <a href="index.html">
+        <img class="logo" src="/Imagens/EUNICE.png" alt="EUNICE home">
+      </a>
+
+      <button class="menu-button" id="menu-button" type="button"
+              aria-controls="home-nav" aria-expanded="false" hidden>
+        Menu
+      </button>
+
+      <nav class="home-nav" id="home-nav" aria-label="Main navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="../Activities/atividades.html">Activities</a>
+        <a href="../Competencias/competencias.html">Competencies</a>
+        <a href="../Storys/storys.html">Student Stories</a>
+        <a href="../Find_Activities/find_activities.html">Find Activities for You</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1 id="hero-title">EUNICE<br>Activities<br>Portfolio</h1>
+          <p>
+            Explore a collection of completed activities, events
+            and experiences from across Europe.
+          </p>
+        </div>
+
+        <img class="hero-image" src="/Imagens/Ativade.homepage.jpg"
+             alt="A group of students visiting a city">
+      </div>
+    </section>
+  </main>
 </body>
 </html>
